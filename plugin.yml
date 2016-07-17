@@ -1,0 +1,9 @@
+name: me.hiztree.pancakevote.PancakeVote
+description: A rankup plugin for Pankcake servers.
+version: 1.0
+main: me.hiztree.pancakevote.PancakeVote
+commands:
+  pancakevoteadd:
+    description: Adds votes to players.
+  votes:
+    description: Check how many times you have voted.

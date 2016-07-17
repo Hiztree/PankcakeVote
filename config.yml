@@ -1,0 +1,19 @@
+#The prefix for messaging.
+Prefix: '&8[&bPancakeVote&8] '
+
+#The message to be sent to the player when they rankup. ({ARG0} = GroupName)
+RankupMessage: '&6You have ranked up to &7{ARG0}&6.'
+
+#The messaage to be sent to the player when they do /votes. ({ARG0} = # of votes)
+VoteCheckMessage: '&6You have voted &7{ARG0}&6 times.'
+
+#All the groups.
+Groups:
+  Member: 0
+  Flour: 1
+  Milk: 3
+  Egg: 7
+  Sugar: 15
+  Pancake: 30
+
+Data: []
