@@ -23,7 +23,7 @@ public class PancakeVote extends JavaPlugin {
 
     private static Permission permission;
 
-    private static Logger logger = Logger.getLogger("Pan");
+    private static Logger logger = Logger.getLogger("PancakeVote");
 
     private static File configFile;
     private static FileConfiguration config;
@@ -39,7 +39,7 @@ public class PancakeVote extends JavaPlugin {
             return;
         }
 
-        File directory = new File("plugins/me.hiztree.pancakevote.PancakeVote");
+        File directory = new File("plugins/PancakeVote/");
         configFile = new File(directory, "config.yml");
 
         if (!directory.exists())
