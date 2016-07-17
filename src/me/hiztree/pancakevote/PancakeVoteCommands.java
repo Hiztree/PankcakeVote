@@ -46,7 +46,7 @@ public class PancakeVoteCommands implements CommandExecutor {
 
                 PancakeVote.sendMessage(sender, PancakeVote.getVoteCheckMessage().replace("{ARG0}", String.valueOf(votes)));
             } else {
-                sender.sendMessage("[me.hiztree.pancakevote.PancakeVote] You must be a player to perform this command!");
+                sender.sendMessage("[PancakeVote] You must be a player to perform this command!");
             }
         }
 
